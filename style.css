@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #011F3F;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 2%;
+    color: #FEF2BF;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.btn{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50px;
+    border: 10px solid black;
+}
+
+.wrong{
+    background-color: red;
+}
+
+.flash{
+    animation: blinker 1s linear infinite;
+}
+
+.a{
+    background-color: green;
+}
+.b{
+    background-color: red;
+}
+.c{
+    background-color: yellow;
+}
+.d{
+    background-color: blue;
+}
+
+.animate{
+    background-color: gray;
+    box-shadow: 0 0 5px 10px white;
+}
